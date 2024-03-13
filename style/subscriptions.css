@@ -1,0 +1,49 @@
+/* Nollet Antoine Groupe 3 */
+
+/* Disposition des blocs dans la liste d'abonnees et d'abonnements */
+#listeAbonne div, #listeAbonnement div {
+  text-align: center;
+  border-radius: 10px;
+  border : 2px solid black;
+  margin-bottom: 3px;
+}
+
+/* Espace dedié aux listes abonnees et abonnements */
+#listeAbonne, #listeAbonnement {
+  position: absolute;
+  top : 40%;
+  bottom : 0;
+  display: block;
+  overflow-y: scroll;
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Espace dedié aux titres des listes abonnees et abonnements */
+#titreAbonnee, #titreAbonnement {
+  position:absolute;
+  top:33%;
+  border: 2px solid rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding:3px;
+}
+
+/*Placement spécifique à la liste abonnees */
+#listeAbonne {
+  right : 5%;
+  left : 55%;
+}
+
+/*Placement spécifique à la liste abonnements */
+#listeAbonnement {
+  right: 55%;
+  left:5%;
+}
+
+/*Placement spécifique au titre de la liste abonnees */
+#titreAbonnee {
+  right:12%;
+}
+/*Placement spécifique au titre de la liste abonnements */
+#titreAbonnement {
+  left:6%;
+}

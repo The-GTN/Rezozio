@@ -1,0 +1,47 @@
+/* Nollet Antoine Groupe 3 */
+
+/* espace droit du site, qui change selon l'etat connecte/deconnecte */
+#espace_variable {
+  position : absolute;
+  margin : 0;
+  padding : 9px;
+  top: 11.25%;
+  bottom: 0;
+  left : 0;
+  right : 75%;
+  background-color : white;
+  border-right: solid 5px rgba(0,0,0,0.1);
+  border-top: solid 5px rgba(0,0,0,0.1);
+  color : black;
+}
+
+/* placement du pseudo et at de l'utilisateur connecte */
+#connecte>h2{
+  text-align : left;
+  margin-bottom : 4px;
+}
+
+/*avatar de l'utilisateur connecte positionné en haut à gauche du site*/
+#avatar2{
+  position : absolute;
+  left : 30px;
+  top : 10px;
+  border-radius: 25px;
+}
+
+/*positionnement du bouton de deconnexion */
+#logout {
+  position : absolute;
+  bottom: 3%;
+  right: 28%;
+  font-size: 1.5em;
+}
+
+/* positionnement de la partie visible lorsque deconnecte/en inscription */
+.deconnecte,#inscription {
+  position : absolute;
+  top : 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+/* Nollet Antoine Groupe 3 */
+
+/* Espace dédié à la lecture / post de messages */
+#messages{
+  position : absolute;
+  left:25%;
+  right:25%;
+  bottom:0;
+  top:11.25%;
+  display: block;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.308);
+  border-top: solid 5px rgba(0,0,0,0.1);
+}
+
+/* Style des blocs messages */
+div.message {
+  position: relative;
+  padding: 8%;
+  background-color: rgba(220,0,0,0.7);
+  color : white;
+  border-radius: 10px;
+  border : solid 2px black;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/* Positionnement de l'avatar de l'utilisateur-auteur dans son message */
+div.message img {
+  position:absolute;
+  top:6%;
+  left:2%;
+  border-radius: 25px;
+}
+
+/* Positionnement du pseudo@login de l'utilisateur-auteur dans son message */
+div.message span.auteur{
+  text-align: left;
+  position: absolute;
+  top:4%;
+  left:15%;
+}
+
+/* Positionnement de la date du message */
+div.message span.date{
+  position: absolute;
+  top:4%;
+  right:2%;
+}
+
+/* Positionnement du contenu du message */
+div.message p {
+  position: absolute;
+  text-align: left;
+  top:30%;
+  left:15%;
+}
+
+/* Espace dédié à l'ecriture de message */
+#postMessage {
+  background-color: rgba(220,0,0,0.7);
+  color : white;
+  border-radius: 10px;
+  border : solid 2px black;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+#form_postmessage {
+  text-align:center;
+}

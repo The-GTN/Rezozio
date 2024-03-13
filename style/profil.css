@@ -1,0 +1,81 @@
+/* Nollet Antoine Groupe 3 */
+
+/* Poisitionnement au centre de l'avatar dans le profil */
+#avatar{
+ float : center;
+ border-radius : 10%;
+ margin-top: 1.5%;
+ margin-bottom: 1.5%;
+ border: solid 4px rgba(255,0,0,0.7);
+}
+
+/* Positionnement de l'espace de profil / fond sombre */
+#profile {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  width:100%;
+  height:88.5%;
+}
+
+/* Style du bloc contenant les profils / formulaire de changement de profil */
+#personalProfile, #setProfile {
+  color : black;
+  border-radius: 10px;
+  border : solid 4px rgba(255,0,0,0.7);
+  position: absolute;
+  background-color: white;
+  left:25%;
+  right:25%;
+  bottom:6.25%;
+  top:5%;
+  text-align: center;
+}
+
+/* Espace dédié aux messages de l'utilisateur dont le profil est affiché */
+#profileMessages{
+  position : absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  top:72%;
+  display: block;
+  overflow-y: scroll;
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Bouton pour fermer le profil */
+.closeProfile {
+  position : absolute;
+  top:2%;
+  right:2%;
+  font-size: 1.5em;
+}
+
+/* Bouton pour passer de l'espace de changement de profil à l'espace de visualisation du profil */
+#returnButton {
+  position : absolute;
+  top:2%;
+  left:2%;
+  font-size: 1.5em;
+}
+
+/* Bouton pour passer de l'espace de visualisation du profil à l'espace de changement de profil */
+#option, #followOrNot {
+  position: absolute;
+  top:2%;
+  left:2%;
+}
+
+/* Espace pour changer la description du profil */
+#setDescription {
+  resize: none;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* placeholder de l'espace de changement de description du profil */
+#setDescription::placeholder {
+  color: grey;
+}

@@ -1,0 +1,70 @@
+/* Nollet Antoine Groupe 3 */
+html {
+	height: 100%;
+  background-color : rgba(0,0,0,0.1);
+  color:black;
+}
+
+body {
+	display : table;
+	margin: 0 15%;
+	height: 100%;
+	background-color: white;
+	color: rgba(220,0,0,0.7);
+}
+
+body h1 {
+	margin: 0;
+	background-color: white;
+  border-bottom: solid 3px rgba(0,0,0,0.1);
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+	font-size: 500%;
+}
+
+body div {
+	background-color: rgba(220,0,0,0.7);
+	border-radius: 20px;
+	margin: 5%;
+}
+
+p {
+	margin: 30px;
+	font-size: 120%;
+	color: white;
+}
+
+#Mr_Bogaert {
+	font-size: 150%;
+}
+
+a:link,a:visited,a:hover{
+	color:white;
+  text-decoration: none;
+}
+
+footer a {
+	color: white;
+	line-height: 2;
+	margin-left:  30px;
+  text-decoration: none;
+}
+
+footer {
+	display: table-row;
+  text-align: center;
+	margin: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2%;
+	background: none;
+}
+
+#footer {
+	border-radius: 20px 20px 0 0;
+	margin: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(220,0,0,0.7);
+}

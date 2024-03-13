@@ -1,0 +1,145 @@
+/* Nollet Antoine Groupe 3 */
+
+/* le body du site */
+body {
+  font-family : Helvetica ;
+  color : #F7F9EE;
+  background-color : rgba(0,0,0,0.1);
+  padding : 0;
+  margin : 0;
+}
+
+/* l'entête du site */
+body>h1 {
+  text-align : center;
+  margin : 0;
+  padding : 1%;
+  background-color : white;
+}
+
+/* logo centrale du site */
+#logo {
+  width:3%;
+  height:3%;
+}
+
+/* Les boutons */
+button{
+  background : #F7F9EE;
+  border : solid 1px;
+  padding : 3px;
+  border-radius : 5px;
+}
+
+/* Les barres de scrolling */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(250,250,250,1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
+}
+
+
+/* le bouton filtre abonnement */
+
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top:20.5%;
+  left:55%;
+}
+
+#switch {
+  position:absolute;
+  top:22%;
+  left:5%;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgba(220,0,0,0.7);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* placeholder des textarea */
+
+textarea::placeholder {
+  color: black;
+}
+
+
+/* changement du curseur, là où il y a des events "click" */
+
+#logo, #listeRecherche div, span.auteur, button,#pseudo,#at,#avatar2, #option, #listeAbonne div span,#listeAbonne div img, #listeAbonnement div span, #listeAbonne div span, #listeAbonnement div img, .message img{
+  cursor: pointer;
+}
+
+/* positionnement href dirigeant vers les crédits */
+
+#credits {
+  position:absolute;
+  text-decoration: none;
+  color: black;
+  bottom:3px;
+  right:3px;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 2px;
+  background-color:white;
+}

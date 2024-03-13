@@ -1,0 +1,33 @@
+/* Nollet Antoine Groupe 3 */
+
+/* fieldset des formulaires */
+fieldset {
+  border : 1px solid darkgrey ;
+  margin : 10px ;
+}
+
+/* Les input du site */
+input {
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+/* alignement du contenu de formulaires */
+#form_login,#form_createUser{
+  text-align : center;
+}
+
+/*Non visibilité de formulaires*/
+#form_recherche,#fsearch {
+  width : 0;
+  height : 0;
+  border : 0px solid darkgrey ;
+  margin : 0 ;
+}
+
+/*ajustement formulaire d'upload d'avatar */
+#form_img {
+  margin-top: 15%;
+}

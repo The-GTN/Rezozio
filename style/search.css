@@ -1,0 +1,50 @@
+/* Nollet Antoine Groupe 3 */
+
+/* Positionnement de l'espace dédié à la recherche d'utilisateur */
+#recherche {
+  position : absolute;
+  margin : 0;
+  padding : 9px;
+  top: 11.25%;
+  bottom: 0;
+  left : 75%;
+  right : 0;
+  background-color : white;
+  border-left: solid 5px rgba(0,0,0,0.1);
+  border-top: solid 5px rgba(0,0,0,0.1);
+  color : black;
+}
+
+/* Positionnement du logo de recherche */
+#logo_recherche {
+  position :absolute;
+  top : 2%;
+  right: 3%;
+}
+
+/* Positionnement du input de recherche */
+#searchedString {
+  position:absolute;
+  top: 4.5%;
+  right: 9%;
+}
+
+/* Disposition du resultat de la recherche */
+#listeRecherche {
+  position: absolute;
+  top : 10%;
+  left : 10%;
+  right : 10%;
+  bottom: 13%;
+  display: block;
+  overflow-y: scroll;
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Style des blocs dans le resultat de recherche d'utilisateur */
+#listeRecherche div {
+  text-align: center;
+  border-radius: 10px;
+  border : 2px solid black;
+  margin-bottom: 3px;
+}
